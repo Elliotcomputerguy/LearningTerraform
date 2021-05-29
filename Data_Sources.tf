@@ -7,7 +7,7 @@ by another separate Terraform configuration.
 
 
 data "aws_vpc" "name" {
-    id = "" //if you know the vps you can directly pass it in or from a variable var.name
+    id = "" //if you know the vpc tag you can directly pass it in or from a variable var.name
 }
 
 data "aws_vpc" "name" {
