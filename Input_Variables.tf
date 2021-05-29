@@ -26,6 +26,7 @@ You can also assign a value to a variable via ENV variables.
 It is also best practise to place all your variables in a variable.tf file. The file can be any name it does not have to be variable.tf.
 
 Terraform have type constructors allowing you to specify complex types such as collections.
+
 list(<TYPE>)
 set(<TYPE>)
 map(<TYPE>)
