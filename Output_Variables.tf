@@ -21,12 +21,14 @@ output "foobar" {
 }
 
 output "instance_ip" {
+    description = "value"
     value = aws_instance.name.public_ip
 }
 
 // Outputs are only rendered when Terraform applies your plan. Running terraform plan will not render outputs. You have to apply. 
 
-// you can access them with following commands. terraform output / terraform output value
+// you can access them with following commands. terraform output / terraform output name. 
+// terraform output instance_ip or terraform output
 
 /*
   Optional arguments
