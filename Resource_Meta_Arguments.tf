@@ -83,3 +83,6 @@ resource "aws_instance" "name" {
     }
 }
 
+/*
+life cycle 
+*/
