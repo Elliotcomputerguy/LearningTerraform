@@ -1,11 +1,11 @@
 
 /*
-Dynamic blocks allow you unbloat your configuration with multiple ingress and out egress rulesets. 
+Dynamic blocks allow you to create dynamic configurations without having to repeat the code multiple times. 
 */
 
 //local block
 locals {
-  ingress_rules = [{ // the curly braces are present because there is different data types in the list. So it is a object in TF.  
+  ingress_rules = [{ // the curly braces are present because there is different data types in the list.  
       port = 443
       description = "port 443"
   },
